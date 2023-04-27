@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: run_script",
+            "type": "python",
+            "request": "launch",
+            "program": "run_script.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: run_script_parallel",
+            "type": "python",
+            "request": "launch",
+            "program": "run_script_parallel.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Lab2.py Test",
+            "type": "python",
+            "request": "launch",
+            "program": "lab2.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": "--csv_output ./simulations/output"
+        }
+    ]
+}
